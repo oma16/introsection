@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/oma16/introsection.git)
-- Live Site URL: [Add live site URL here](https://oma16.github.io/introsection/)
+- Solution URL: [https://github.com/oma16/introsection.git](https://github.com/oma16/introsection.git)
+- Live Site URL: [https://oma16.github.io/introsection/](https://oma16.github.io/introsection/)
 
 ## My process
 
