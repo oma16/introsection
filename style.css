@@ -1,0 +1,447 @@
+*,*::after,*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Epilogue";
+    src: url("https://fonts.google.com/specimen/Epilogue");
+}
+html,body{
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+    font-family: "Epilogue";
+}
+p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+h1{
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 60px;
+    max-width: 500px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 8%);
+    font-family: "Epilogue";
+}
+.hero{
+    background-image:url("images/image-hero-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 470px;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-row1{
+    flex-direction: row;
+}
+.flex-row2{
+    flex-direction:row;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Epilogue";
+}
+.learn-btn:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 41%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 400;
+}
+.register-btn:hover {
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+    
+}
+.btn:hover{
+   color: hsl(0, 0%, 8%);
+   cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    font-weight: 400;
+    font-size: 18px;
+}
+a:hover{
+    color: hsl(0, 0%, 8%);
+}
+.desktopnav{
+    display: flex;
+}
+.btn{
+    border: none;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.ml-4{
+    margin-left: 40px;
+}
+.ml-6{
+    margin-left: 200px;
+}
+.ml-7{
+    margin-left: 180px;
+}
+.ml-8{
+    margin-left: 520px;
+}
+.ml-3{
+    margin-left: 10px;
+}
+.mr-4{
+    margin-right: 40px;
+}
+.mr-6{
+    margin-right: 165px;
+}
+.mt-4{
+    margin-top: 20px;
+}
+.mt-0{
+    margin-top: 30px;
+}
+.mt-5{
+    margin-top: 97px;
+}
+.mt-6{
+    margin-top: 75px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.gray{
+    color: hsl(0, 0%, 41%);
+}
+.register-btn{
+    background-color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: 8px 20px;
+    border-radius: 12px;
+    color: hsl(0, 0%, 41%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-justify{
+    text-align: justify;
+}
+.w-50{
+    width: 60%;
+}
+.team{
+    max-width: 350px;
+}
+.learn-btn{
+    background-color: hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
+    padding: 10px 24px;
+    border-radius: 12px;
+    color: hsl(0, 0%, 98%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.mainlogo{
+    width: 80px;
+    height: 30px;
+}
+.companylogo{
+    width: 80px;
+    height: 30px;
+}
+.mobilemenu{
+    display: none;
+}
+.d-hidden{
+    display: none;
+}
+.dropdown-content{
+    box-shadow: 20px 20px 50px 10px hsl(0, 2%, 89%);
+    background-color: white;
+    margin-top: 20px;
+    padding:12px 12px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
+.com{
+    left: 320px;
+    padding: 15px 24px;
+}
+
+@media (max-width:1200px) {
+
+    .hero{
+        height: 430px;
+    }
+    h1{
+        font-size: 55px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .mt-0{
+        margin-top: 23px;
+    }
+    .mt-4{
+       margin-top:25px;
+    }
+    .mt-6{
+       margin-top: 65px;
+    }
+   
+    .companylogo{
+        width: 60px;
+        height: 20px;
+    }
+    .mainlogo{
+        width: 60px;
+        height: 20px;
+    }
+    .dropdown-content{
+        left: 130px;
+    }
+    .com{
+        left: 300px;
+    }
+    .ml-8{
+        margin-left: 200px;
+    }
+    
+}
+
+@media (max-width:800px) {
+    .hero{
+        height: 415px;
+    }
+    .ml-7{
+        margin-left: 75px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .ml-4{
+        margin-left: 24px;
+    }
+    .mt-0{
+        margin-top: 21px;
+    }
+    a{
+        font-size: 14px;
+    }
+    .register-btn{
+        font-size: 15px;
+        padding: 5px 12px;
+    }
+    .dropdown-content{
+        left: 70px;
+    }
+    .com{
+        left: 200px;
+    }
+    .mr-4{
+        margin-right: 20px;
+    }
+    .mainlogo{
+        width: 45px;
+        height: 20px;
+    }
+    .companylogo{
+        width: 45px;
+        height: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:500px) {
+    .hero{
+        background-image: url("images/image-hero-mobile.png");
+    }
+    .flex-row{
+        flex-direction: column;
+    }
+    .flex-row1{
+        flex-direction: column-reverse;
+    }
+    .desktopnav{
+        display: none;
+    }
+    .mobilemenu{
+        display: flex;
+    }
+    .companylogo{
+        width: 60px;
+        height:20px;
+    }
+    .mainlogo{
+        width: 70px;
+        height:30px;
+    }
+    .ml-7{
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    li{
+        font-size: 18px;
+    }
+    a{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    .w-50{
+        width: 100%;
+    }
+    .remote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mt-5{
+        margin-top: 8px;
+    }
+    p{
+        margin: 0 24px;
+        font-size: 18px;
+    }
+    .text-justify{
+        text-align: center;
+    }
+    .ml-4{
+        margin-left: 10px;
+    }
+    .mb-4{
+        margin-bottom: 60px;
+        margin-right: 25px;
+    }
+    .team{
+        max-width: 300px;
+    }
+    .imgmargin{
+        margin-left: 25px;
+    }
+    .menudrop{
+        position: absolute;
+        width: 65%;
+        height: 833px;
+        background-color: white;
+        box-shadow: 0 0 600px 300px rgba(0, 0, 0, .8);
+        top: 0;
+        left:80;
+        right: 0;
+        z-index: 1;
+    }
+    .closemenu{
+        justify-content: flex-end;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .mt-7{
+        margin-top: 90px;
+    }
+    .register-btn{
+        padding: 10px 68px;
+        background-color: white;
+    }
+    .menuitem{
+        margin-left: 13px;
+    }
+    .mb-2{
+        margin-bottom: 20px;
+    }
+    .mb-1{
+        margin-bottom: 10px;
+    }
+    a{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 15px;
+        background-color: white;
+    }
+    .dropdown-content{
+        position: relative;
+        background-color:white;
+        box-shadow: none;
+        left: 0;
+        padding:2px 15px;
+    }
+    .menulogo{
+        width: 35px;
+        height: 25px;
+        position: absolute;
+        top: 0px;
+        left: 315px;
+        z-index: 0;
+    }
+    .ml-8{
+        margin-left: 78px;
+    }
+    .mr-4{
+        margin-right: 10px;
+    }
+   
+}
+@media (max-width:350px) {
+    .menudrop{
+        left: 112px;
+    }
+    .menulogo{
+        left: 270px;
+    }
+    .register-btn{
+        padding: 10px 53px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
