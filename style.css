@@ -213,6 +213,19 @@ a:hover{
     padding: 15px 24px;
 }
 
+@media(max-width:1344px){
+    h1{
+        font-size: 75px;
+        line-height: 55px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:1300px){
+    h1{
+        font-size: 72px;
+    }
+}
+
 @media (max-width:1200px) {
 
     .hero{
